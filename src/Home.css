@@ -1,0 +1,33 @@
+.home__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1500px;
+}
+
+.black {
+  height: 60px;
+  background-color: #798c98;
+  z-index: -100;
+  mask-image: linear-gradient(to bottom, rgb(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  margin-bottom: -100px;
+}
+
+.home__row {
+  display: flex;
+  z-index: 1;
+  margin-right: 5px;
+  margin-left: 5px;
+  justify-content: space-evenly;
+}
+
+.home__video {
+  width: 100%;
+  z-index: -100;
+  margin-bottom: 0px;
+  mask-image: linear-gradient(to bottom, rgb(0, 0, 0, 1), rgba(0, 0, 0, 0.5));
+  overflow-x: hidden;
+
+}
